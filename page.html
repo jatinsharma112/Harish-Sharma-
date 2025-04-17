@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Brands</title>
+    <style>
+        body {
+           
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .brand {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            text-align: center;
+            width: 200px;
+            transition: transform 0.3s ease;
+        }
+        .brand:hover {
+            transform: scale(1.05); font-family: Arial, sans-serif;
+        }
+        .brand img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px 8px 0 0;
+        }
+        .brand-name {
+            padding: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            background-color: #333;
+            color: white;
+            border-radius: 0 0 8px 8px;
+        }
+        .brand a {
+            text-decoration: none;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Car Brands</h1>
+</header>
+
+<div class="container">
+    <div class="brand">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Tesla_logo.png/600px-Tesla_logo.png" alt="Tesla">
+        <div class="brand-name"><a href="https://www.tesla.com" target="_blank">Tesla</a></div>
+    </div>
+    <div class="brand">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Ford_logo_2017.svg" alt="Ford">
+        <div class="brand-name"><a href="https://www.ford.com
